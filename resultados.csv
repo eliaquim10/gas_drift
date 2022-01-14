@@ -1,0 +1,25 @@
+,ROC,Acuracia,F1,tempo(s),matriz,hiper paramentros,modelo
+0,0.9959259069815938,0.9723220704529115,0.9709962438984668,1068.5673043000002,"[[250.40 0.70 0.10 4.30 0.80 0.20]
+ [0.90 288.80 0.90 0.70 1.20 0.10]
+ [0.80 1.00 159.80 0.40 2.00 0.10]
+ [7.50 0.60 0.60 178.80 4.00 2.10]
+ [0.40 0.60 1.70 1.60 294.90 1.70]
+ [0.90 0.60 0.30 1.00 0.70 179.80]]","[{'activation': 'relu', 'hidden_layer_sizes': 40, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'relu', 'hidden_layer_sizes': 40, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'relu', 'hidden_layer_sizes': 30, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'relu', 'hidden_layer_sizes': 40, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'relu', 'hidden_layer_sizes': 40, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'relu', 'hidden_layer_sizes': 80, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'relu', 'hidden_layer_sizes': 20, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'relu', 'hidden_layer_sizes': 20, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'relu', 'hidden_layer_sizes': 70, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'relu', 'hidden_layer_sizes': 60, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}]",MLPClassifier()
+1,0.9958216667467316,0.9897196261682245,0.9893617684680647,133.6632641,"[[254.50 0.90 0.00 1.00 0.00 0.10]
+ [0.30 290.60 0.40 0.70 0.50 0.10]
+ [0.10 0.90 161.20 0.30 1.60 0.00]
+ [1.40 0.00 0.00 190.50 0.90 0.80]
+ [0.40 0.30 1.00 0.80 297.70 0.70]
+ [0.40 0.00 0.00 0.40 0.30 182.20]]","[{'metric': 'manhattan', 'n_neighbors': 1}, {'metric': 'manhattan', 'n_neighbors': 3}, {'metric': 'manhattan', 'n_neighbors': 3}, {'metric': 'manhattan', 'n_neighbors': 3}, {'metric': 'manhattan', 'n_neighbors': 3}, {'metric': 'manhattan', 'n_neighbors': 1}, {'metric': 'manhattan', 'n_neighbors': 3}, {'metric': 'manhattan', 'n_neighbors': 1}, {'metric': 'manhattan', 'n_neighbors': 1}, {'metric': 'manhattan', 'n_neighbors': 3}]",KNeighborsClassifier()
+2,0.9873223194351015,0.9800143781452194,0.9786262008439888,16.702751,"[[253.50 0.40 0.30 1.10 0.40 0.80]
+ [0.90 289.20 0.90 0.40 1.00 0.20]
+ [0.30 0.90 160.40 0.90 1.50 0.10]
+ [1.70 0.40 0.30 187.10 1.20 2.90]
+ [0.50 1.00 1.70 1.40 295.10 1.20]
+ [0.90 0.10 0.30 2.90 1.20 177.90]]","[{'criterion': 'entropy'}, {'criterion': 'entropy'}, {'criterion': 'entropy'}, {'criterion': 'entropy'}, {'criterion': 'entropy'}, {'criterion': 'entropy'}, {'criterion': 'entropy'}, {'criterion': 'entropy'}, {'criterion': 'entropy'}, {'criterion': 'entropy'}]",DecisionTreeClassifier()
+3,0.8434651316976058,0.5696621135873471,0.5748997140584711,0.21916940000000001,"[[125.10 0.50 5.80 52.40 21.10 51.60]
+ [5.70 175.40 51.30 4.70 5.50 50.00]
+ [0.10 0.90 97.50 2.80 5.40 57.40]
+ [8.70 0.00 0.20 69.80 5.80 109.10]
+ [1.40 0.00 0.50 48.20 165.60 85.20]
+ [0.00 0.00 0.00 18.30 6.00 159.00]]","[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]",GaussianNB()
