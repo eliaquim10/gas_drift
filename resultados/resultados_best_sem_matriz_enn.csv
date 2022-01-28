@@ -1,0 +1,6 @@
+,ROC,Acuracia,F1,tempo(s) treino,tempo(s) predição,hiper paramentros,modelo
+0,99.84,99.08,99.03,7263.416100,1.285640,"[{'activation': 'tanh', 'hidden_layer_sizes': 90, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}]",MLPClassifier
+1,99.64,99.18,99.17,417.764960,48.946780,"[{'metric': 'euclidean', 'n_neighbors': 3}]",KNeighborsClassifier
+2,99.21,89.07,89.23,10648.300300,83.597100,"[{'kernel': 'poly', 'probability': True, 'verbose': False}]",SVC
+3,98.60,97.78,97.61,1401.829450,0.439480,"[{'criterion': 'entropy'}]",DecisionTreeClassifier
+4,84.19,57.61,57.63,240.478460,1.965860,"[{}]",GaussianNB

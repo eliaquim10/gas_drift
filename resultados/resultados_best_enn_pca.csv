@@ -1,0 +1,31 @@
+,ROC,Acuracia,F1,tempo(s) treino,tempo(s) predição,matriz,hiper paramentros,modelo
+0,99.84,99.06,99.00,5745.470340,1.428420,"[[255.00 0.30 0.10 0.60 0.40 0.10]
+ [0.60 289.90 0.80 0.20 0.80 0.30]
+ [0.00 0.30 161.70 0.20 1.90 0.00]
+ [0.40 0.20 0.10 191.20 0.10 1.60]
+ [0.30 0.10 0.90 0.50 298.70 0.40]
+ [0.40 0.00 0.00 1.20 0.30 181.40]]","[{'activation': 'tanh', 'hidden_layer_sizes': 90, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'tanh', 'hidden_layer_sizes': 90, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'tanh', 'hidden_layer_sizes': 90, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'tanh', 'hidden_layer_sizes': 90, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'tanh', 'hidden_layer_sizes': 90, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'tanh', 'hidden_layer_sizes': 90, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'tanh', 'hidden_layer_sizes': 90, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'tanh', 'hidden_layer_sizes': 90, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'tanh', 'hidden_layer_sizes': 90, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}, {'activation': 'tanh', 'hidden_layer_sizes': 90, 'learning_rate_init': 0.0001, 'max_iter': 200, 'verbose': False}]",MLPClassifier()
+1,99.63,99.16,99.14,394.072550,47.708730,"[[254.30 0.80 0.00 0.80 0.60 0.00]
+ [0.70 290.90 0.30 0.00 0.60 0.10]
+ [0.00 0.40 162.30 0.00 1.40 0.00]
+ [0.80 0.70 0.00 190.70 0.20 1.20]
+ [0.60 0.20 0.70 0.30 298.90 0.20]
+ [0.40 0.00 0.00 0.60 0.10 182.20]]","[{'metric': 'euclidean', 'n_neighbors': 3}, {'metric': 'euclidean', 'n_neighbors': 3}, {'metric': 'euclidean', 'n_neighbors': 3}, {'metric': 'euclidean', 'n_neighbors': 3}, {'metric': 'euclidean', 'n_neighbors': 3}, {'metric': 'euclidean', 'n_neighbors': 3}, {'metric': 'euclidean', 'n_neighbors': 3}, {'metric': 'euclidean', 'n_neighbors': 3}, {'metric': 'euclidean', 'n_neighbors': 3}, {'metric': 'euclidean', 'n_neighbors': 3}]",KNeighborsClassifier()
+2,99.14,89.02,89.16,7379.636340,60.424810,"[[207.90 1.20 0.40 45.60 1.00 0.40]
+ [0.30 279.80 0.30 11.60 0.50 0.10]
+ [0.10 0.60 157.50 4.60 0.90 0.40]
+ [0.80 0.30 0.00 190.30 0.70 1.50]
+ [1.60 0.10 0.70 35.10 261.50 1.90]
+ [0.10 0.00 0.00 40.90 1.10 141.20]]","[{'kernel': 'poly', 'probability': True, 'verbose': False}, {'kernel': 'poly', 'probability': True, 'verbose': False}, {'kernel': 'poly', 'probability': True, 'verbose': False}, {'kernel': 'poly', 'probability': True, 'verbose': False}, {'kernel': 'poly', 'probability': True, 'verbose': False}, {'kernel': 'poly', 'probability': True, 'verbose': False}, {'kernel': 'poly', 'probability': True, 'verbose': False}, {'kernel': 'poly', 'probability': True, 'verbose': False}, {'kernel': 'poly', 'probability': True, 'verbose': False}, {'kernel': 'poly', 'probability': True, 'verbose': False}]",SVC()
+3,98.22,97.17,96.99,673.649410,0.968580,"[[250.60 0.90 0.40 1.70 1.60 1.30]
+ [0.70 287.70 1.90 0.60 1.10 0.60]
+ [0.30 1.70 159.10 0.70 2.00 0.30]
+ [1.30 1.10 1.00 184.00 2.50 3.70]
+ [1.50 0.50 2.30 2.20 293.70 0.70]
+ [1.30 0.00 0.10 3.80 1.50 176.60]]","[{'criterion': 'entropy'}, {'criterion': 'entropy'}, {'criterion': 'entropy'}, {'criterion': 'entropy'}, {'criterion': 'entropy'}, {'criterion': 'entropy'}, {'criterion': 'entropy'}, {'criterion': 'entropy'}, {'criterion': 'entropy'}, {'criterion': 'entropy'}]",DecisionTreeClassifier()
+4,90.25,67.71,69.13,223.178430,1.183720,"[[173.60 4.00 0.90 61.30 5.10 11.60]
+ [3.20 162.80 13.40 64.40 6.70 42.10]
+ [2.40 1.80 128.10 17.60 4.30 9.90]
+ [1.40 0.80 0.70 126.80 5.50 58.40]
+ [3.00 0.80 5.00 62.00 185.50 44.60]
+ [0.70 2.50 0.00 5.80 9.20 165.10]]","[{}, {}, {}, {}, {}, {}, {}, {}, {}, {}]",GaussianNB()
